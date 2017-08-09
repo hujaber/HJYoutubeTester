@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63BCDF851EFBDB6000193027 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCDF841EFBDB6000193027 /* FavoritesViewController.m */; };
+		63BCDF891EFBDC3000193027 /* UserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCDF881EFBDC3000193027 /* UserDefaultsHelper.m */; };
+		63E99C2D1EFA841000674B5A /* VideosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E99C2C1EFA841000674B5A /* VideosTableViewCell.m */; };
+		63E99C301EFA934D00674B5A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E99C2F1EFA934D00674B5A /* BaseViewController.m */; };
+		63E99C331EFA93C400674B5A /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E99C321EFA93C400674B5A /* PlayerViewController.m */; };
+		86EF11A5E1E4581492E2936A /* libPods-HJYoutube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B075091C984155B24EA64382 /* libPods-HJYoutube.a */; };
 		D7DEFAD41EF9E561002FC76C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAD31EF9E561002FC76C /* main.m */; };
 		D7DEFAD71EF9E561002FC76C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAD61EF9E561002FC76C /* AppDelegate.m */; };
 		D7DEFADA1EF9E561002FC76C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAD91EF9E561002FC76C /* ViewController.m */; };
 		D7DEFADD1EF9E561002FC76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DEFADB1EF9E561002FC76C /* Main.storyboard */; };
 		D7DEFADF1EF9E561002FC76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DEFADE1EF9E561002FC76C /* Assets.xcassets */; };
 		D7DEFAE21EF9E561002FC76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DEFAE01EF9E561002FC76C /* LaunchScreen.storyboard */; };
+		D7DEFAEF1EF9E6C7002FC76C /* Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAEE1EF9E6C7002FC76C /* Requests.m */; };
+		D7DEFAF21EF9F51F002FC76C /* YTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAF11EF9F51F002FC76C /* YTResponse.m */; };
+		D7DEFAF51EF9F58D002FC76C /* YTItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAF41EF9F58D002FC76C /* YTItem.m */; };
+		D7DEFAF91EF9F616002FC76C /* YTItemId.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAF81EF9F616002FC76C /* YTItemId.m */; };
+		D7DEFAFC1EF9F694002FC76C /* YTSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAFB1EF9F694002FC76C /* YTSnippet.m */; };
+		D7DEFAFF1EF9F704002FC76C /* YTThumbnails.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFAFE1EF9F704002FC76C /* YTThumbnails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B5641AF051479561DE92E5E /* Pods-HJYoutube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJYoutube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJYoutube/Pods-HJYoutube.debug.xcconfig"; sourceTree = "<group>"; };
+		63BCDF831EFBDB6000193027 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		63BCDF841EFBDB6000193027 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		63BCDF871EFBDC3000193027 /* UserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
+		63BCDF881EFBDC3000193027 /* UserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsHelper.m; sourceTree = "<group>"; };
+		63E99C2B1EFA841000674B5A /* VideosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosTableViewCell.h; sourceTree = "<group>"; };
+		63E99C2C1EFA841000674B5A /* VideosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosTableViewCell.m; sourceTree = "<group>"; };
+		63E99C2E1EFA934D00674B5A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		63E99C2F1EFA934D00674B5A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		63E99C311EFA93C400674B5A /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		63E99C321EFA93C400674B5A /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		9E9F2467B7310218BE3F480A /* Pods-HJYoutube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJYoutube.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJYoutube/Pods-HJYoutube.release.xcconfig"; sourceTree = "<group>"; };
+		B075091C984155B24EA64382 /* libPods-HJYoutube.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJYoutube.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DEFACF1EF9E561002FC76C /* HJYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DEFAD31EF9E561002FC76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7DEFAD51EF9E561002FC76C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +51,18 @@
 		D7DEFADE1EF9E561002FC76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7DEFAE11EF9E561002FC76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7DEFAE31EF9E561002FC76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DEFAED1EF9E6C7002FC76C /* Requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Requests.h; sourceTree = "<group>"; };
+		D7DEFAEE1EF9E6C7002FC76C /* Requests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Requests.m; sourceTree = "<group>"; };
+		D7DEFAF01EF9F51F002FC76C /* YTResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTResponse.h; sourceTree = "<group>"; };
+		D7DEFAF11EF9F51F002FC76C /* YTResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTResponse.m; sourceTree = "<group>"; };
+		D7DEFAF31EF9F58D002FC76C /* YTItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTItem.h; sourceTree = "<group>"; };
+		D7DEFAF41EF9F58D002FC76C /* YTItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTItem.m; sourceTree = "<group>"; };
+		D7DEFAF71EF9F616002FC76C /* YTItemId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTItemId.h; sourceTree = "<group>"; };
+		D7DEFAF81EF9F616002FC76C /* YTItemId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTItemId.m; sourceTree = "<group>"; };
+		D7DEFAFA1EF9F694002FC76C /* YTSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSnippet.h; sourceTree = "<group>"; };
+		D7DEFAFB1EF9F694002FC76C /* YTSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSnippet.m; sourceTree = "<group>"; };
+		D7DEFAFD1EF9F704002FC76C /* YTThumbnails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTThumbnails.h; sourceTree = "<group>"; };
+		D7DEFAFE1EF9F704002FC76C /* YTThumbnails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTThumbnails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +70,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86EF11A5E1E4581492E2936A /* libPods-HJYoutube.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63BCDF861EFBDC1D00193027 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				63BCDF871EFBDC3000193027 /* UserDefaultsHelper.h */,
+				63BCDF881EFBDC3000193027 /* UserDefaultsHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A1D8B2C7280510253BF2CE6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B5641AF051479561DE92E5E /* Pods-HJYoutube.debug.xcconfig */,
+				9E9F2467B7310218BE3F480A /* Pods-HJYoutube.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D7DEFAC61EF9E561002FC76C = {
 			isa = PBXGroup;
 			children = (
 				D7DEFAD11EF9E561002FC76C /* HJYoutube */,
 				D7DEFAD01EF9E561002FC76C /* Products */,
+				A1D8B2C7280510253BF2CE6C /* Pods */,
+				DABD080EE2E490F4AAC6704D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +116,13 @@
 		D7DEFAD11EF9E561002FC76C /* HJYoutube */ = {
 			isa = PBXGroup;
 			children = (
+				63BCDF861EFBDC1D00193027 /* Helpers */,
+				D7DEFAEC1EF9E6B1002FC76C /* Requests */,
+				D7DEFAEB1EF9E6AC002FC76C /* Views */,
+				D7DEFAEA1EF9E6A6002FC76C /* Model */,
+				D7DEFAE91EF9E69E002FC76C /* Controllers */,
 				D7DEFAD51EF9E561002FC76C /* AppDelegate.h */,
 				D7DEFAD61EF9E561002FC76C /* AppDelegate.m */,
-				D7DEFAD81EF9E561002FC76C /* ViewController.h */,
-				D7DEFAD91EF9E561002FC76C /* ViewController.m */,
 				D7DEFADB1EF9E561002FC76C /* Main.storyboard */,
 				D7DEFADE1EF9E561002FC76C /* Assets.xcassets */,
 				D7DEFAE01EF9E561002FC76C /* LaunchScreen.storyboard */,
@@ -79,6 +140,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D7DEFAE91EF9E69E002FC76C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7DEFAD81EF9E561002FC76C /* ViewController.h */,
+				D7DEFAD91EF9E561002FC76C /* ViewController.m */,
+				63E99C2E1EFA934D00674B5A /* BaseViewController.h */,
+				63E99C2F1EFA934D00674B5A /* BaseViewController.m */,
+				63E99C311EFA93C400674B5A /* PlayerViewController.h */,
+				63E99C321EFA93C400674B5A /* PlayerViewController.m */,
+				63BCDF831EFBDB6000193027 /* FavoritesViewController.h */,
+				63BCDF841EFBDB6000193027 /* FavoritesViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D7DEFAEA1EF9E6A6002FC76C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7DEFAF61EF9F603002FC76C /* Item */,
+				D7DEFAF01EF9F51F002FC76C /* YTResponse.h */,
+				D7DEFAF11EF9F51F002FC76C /* YTResponse.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D7DEFAEB1EF9E6AC002FC76C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63E99C2B1EFA841000674B5A /* VideosTableViewCell.h */,
+				63E99C2C1EFA841000674B5A /* VideosTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D7DEFAEC1EF9E6B1002FC76C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				D7DEFAED1EF9E6C7002FC76C /* Requests.h */,
+				D7DEFAEE1EF9E6C7002FC76C /* Requests.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		D7DEFAF61EF9F603002FC76C /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				D7DEFB001EF9F709002FC76C /* Thumbnails */,
+				D7DEFAF31EF9F58D002FC76C /* YTItem.h */,
+				D7DEFAF41EF9F58D002FC76C /* YTItem.m */,
+				D7DEFAF71EF9F616002FC76C /* YTItemId.h */,
+				D7DEFAF81EF9F616002FC76C /* YTItemId.m */,
+				D7DEFAFA1EF9F694002FC76C /* YTSnippet.h */,
+				D7DEFAFB1EF9F694002FC76C /* YTSnippet.m */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		D7DEFB001EF9F709002FC76C /* Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				D7DEFAFD1EF9F704002FC76C /* YTThumbnails.h */,
+				D7DEFAFE1EF9F704002FC76C /* YTThumbnails.m */,
+			);
+			name = Thumbnails;
+			sourceTree = "<group>";
+		};
+		DABD080EE2E490F4AAC6704D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B075091C984155B24EA64382 /* libPods-HJYoutube.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7DEFAE61EF9E561002FC76C /* Build configuration list for PBXNativeTarget "HJYoutube" */;
 			buildPhases = (
+				184B61AD716AD44655F730EC /* [CP] Check Pods Manifest.lock */,
 				D7DEFACB1EF9E561002FC76C /* Sources */,
 				D7DEFACC1EF9E561002FC76C /* Frameworks */,
 				D7DEFACD1EF9E561002FC76C /* Resources */,
+				42B86FAEE7A7FBEEE59060D1 /* [CP] Embed Pods Frameworks */,
+				25DAFE8276008ABA0C7F582F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -112,6 +250,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = SGAW4ZB949;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -146,13 +289,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		184B61AD716AD44655F730EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25DAFE8276008ABA0C7F582F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJYoutube/Pods-HJYoutube-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42B86FAEE7A7FBEEE59060D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJYoutube/Pods-HJYoutube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7DEFACB1EF9E561002FC76C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DEFAF91EF9F616002FC76C /* YTItemId.m in Sources */,
+				63E99C2D1EFA841000674B5A /* VideosTableViewCell.m in Sources */,
+				63E99C301EFA934D00674B5A /* BaseViewController.m in Sources */,
 				D7DEFADA1EF9E561002FC76C /* ViewController.m in Sources */,
+				D7DEFAF21EF9F51F002FC76C /* YTResponse.m in Sources */,
+				63E99C331EFA93C400674B5A /* PlayerViewController.m in Sources */,
+				D7DEFAEF1EF9E6C7002FC76C /* Requests.m in Sources */,
+				63BCDF851EFBDB6000193027 /* FavoritesViewController.m in Sources */,
+				63BCDF891EFBDC3000193027 /* UserDefaultsHelper.m in Sources */,
+				D7DEFAF51EF9F58D002FC76C /* YTItem.m in Sources */,
 				D7DEFAD71EF9E561002FC76C /* AppDelegate.m in Sources */,
+				D7DEFAFC1EF9F694002FC76C /* YTSnippet.m in Sources */,
+				D7DEFAFF1EF9F704002FC76C /* YTThumbnails.m in Sources */,
 				D7DEFAD41EF9E561002FC76C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,10 +473,12 @@
 		};
 		D7DEFAE71EF9E561002FC76C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5641AF051479561DE92E5E /* Pods-HJYoutube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SGAW4ZB949;
 				INFOPLIST_FILE = HJYoutube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hujaber.HJYoutube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +487,12 @@
 		};
 		D7DEFAE81EF9E561002FC76C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9F2467B7310218BE3F480A /* Pods-HJYoutube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SGAW4ZB949;
 				INFOPLIST_FILE = HJYoutube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hujaber.HJYoutube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +518,7 @@
 				D7DEFAE81EF9E561002FC76C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

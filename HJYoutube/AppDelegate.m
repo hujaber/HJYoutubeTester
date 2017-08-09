@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface AppDelegate ()
 
@@ -16,8 +17,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:223.0/255 green:40.0/255 blue:36.0/255 alpha:1]];
+    [UINavigationBar appearance].translucent = NO;
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    NSError *setCategoryError = nil;
+    [[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error: &setCategoryError];
+    [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]].tintColor = [UIColor whiteColor];
     return YES;
+}
+
+- (void)remoteControlReceivedWithEvent:(UIEvent *)event {
+    switch (event.subtype) {
+        case UIEventSubtypeRemoteControlPlay:
+            
+            break;
+        case UIEventSubtypeRemoteControlPause:
+            // handle it
+            break;
+        case UIEventSubtypeRemoteControlNextTrack:
+            // handle it
+            break;
+        case UIEventSubtypeRemoteControlPreviousTrack:
+            // handle it
+            break;
+        default:
+            break;
+    }
 }
 
 
@@ -28,6 +53,7 @@
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"play" object:nil];
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
